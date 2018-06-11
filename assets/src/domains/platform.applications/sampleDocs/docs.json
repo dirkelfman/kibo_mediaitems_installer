@@ -1,0 +1,89 @@
+{
+
+    "items": [{
+
+            "name": "hp-promo1",
+            "documentTypeFQN": "media_item@mozu",
+            "listFQN": "media_items@mozu",
+            "publishState": "active",
+            "properties": {
+                "targetName": "hp",
+                "htmlContent": "<div class=\"coupon\">\r\n  <div class=\"container\">\r\n    <h3>logo</h3>\r\n  </div>\r\n  <img src=\"http://via.placeholder.com/250x100/99/33?text=promo1\"  style=\"width:100%;\">\r\n  <div class=\"container\" style=\"background-color:white\">\r\n    <h2><b>Lorem ipsum</b></h2> \r\n    <p>Lorem ipsum..</p>\r\n  </div>\r\n  <div class=\"container\">\r\n    <p>Lorem ipsum: <span class=\"promo\">BOH232</span></p>\r\n    <p class=\"expire\">Expires: 2018-09-13</p>\r\n  </div>\r\n</div>",
+                "htmlContentAlternate": "promo1 desc",
+                "archived": false,
+                "notes": "i am a note"
+            },
+            "activeDateRange": {
+                "startDate": "2017-09-01T00:00:00.000Z",
+                "endDate": "2018-09-13T00:00:00.000Z"
+            }
+        },
+        {
+
+            "name": "hp-promo2",
+            "documentTypeFQN": "media_item@mozu",
+            "listFQN": "media_items@mozu",
+            "publishState": "active",
+            "properties": {
+                "targetName": "hp",
+                "htmlContent": "<div class=\"coupon\">\r\n  <div class=\"container\">\r\n    <h3>logo</h3>\r\n  </div>\r\n  <img src=\"http://via.placeholder.com/250x100/99/33?text=promo2\"  style=\"width:100%;\">\r\n  <div class=\"container\" style=\"background-color:white\">\r\n    <h2><b>Lorem ipsum</b></h2> \r\n    <p>Lorem ipsum..</p>\r\n  </div>\r\n  <div class=\"container\">\r\n    <p>Lorem ipsum: <span class=\"promo\">BOH232</span></p>\r\n    <p class=\"expire\">Expires: 2018-09-13</p>\r\n  </div>\r\n</div>",
+                "archived": false,
+                "notes": ""
+            },
+            "activeDateRange": {
+                "startDate": "2018-09-01T00:00:00.000Z",
+                "endDate": "2018-09-13T00:00:00.000Z"
+            }
+        },
+        {
+
+            "name": "hp-promo3",
+            "documentTypeFQN": "media_item@mozu",
+            "listFQN": "media_items@mozu",
+            "publishState": "active",
+            "properties": {
+                "targetName": "hp",
+                "htmlContent": "<div class=\"coupon\">\r\n  <div class=\"container\">\r\n    <h3>logo</h3>\r\n  </div>\r\n  <img src=\"http://via.placeholder.com/250x100/99/33?text=promo3\"  style=\"width:100%;\">\r\n  <div class=\"container\" style=\"background-color:white\">\r\n    <h2><b>Lorem ipsum</b></h2> \r\n    <p>Lorem ipsum..</p>\r\n  </div>\r\n  <div class=\"container\">\r\n    <p>Lorem ipsum: <span class=\"promo\">BOH232</span></p>\r\n    <p class=\"expire\">Expires: 2018-09-17</p>\r\n  </div>\r\n</div>",
+                "archived": false,
+                "notes": ""
+            },
+            "activeDateRange": {
+                "startDate": "2018-09-13T00:00:00.000Z",
+                "endDate": "2018-09-17T00:00:00.000Z"
+            }
+        }, {
+
+            "name": "header-promo1",
+            "documentTypeFQN": "media_item@mozu",
+            "listFQN": "media_items@mozu",
+            "publishState": "active",
+            "properties": {
+                "targetName": "header",
+                "htmlContent": "<img src=\"http://via.placeholder.com/600x50/00ccff/cc6622?text=header%20promo\"  style=\"width:100%;\">",
+                "archived": false,
+                "notes": ""
+            },
+            "activeDateRange": {
+                "startDate": "2018-09-01T00:00:00.000Z",
+                "endDate": "2018-09-13T00:00:00.000Z"
+            }
+        },
+        {
+
+            "name": "header-promo2",
+            "documentTypeFQN": "media_item@mozu",
+            "listFQN": "media_items@mozu",
+            "publishState": "active",
+            "properties": {
+                "targetName": "header",
+                "htmlContent": "<img src=\"http://via.placeholder.com/600x50/cc6622/00ccff?text=header%20promo\"  style=\"width:100%;\">",
+                "archived": false,
+                "notes": ""
+            },
+            "activeDateRange": {
+                "startDate": "2018-09-13T00:00:00.000Z",
+                "endDate": "2018-09-17T00:00:00.000Z"
+            }
+        }
+    ]
+}

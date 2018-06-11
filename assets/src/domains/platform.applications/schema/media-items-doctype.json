@@ -1,0 +1,72 @@
+{
+    "name": "media_item",
+    "namespace": "mozu",
+    "documentTypeFQN": "media_item@mozu",
+    "adminName": "media_item",
+    "properties": [{
+            "name": "archived",
+            "isRequired": false,
+            "isMultiValued": false,
+            "propertyType": {
+                "name": "boolean",
+                "namespace": "mozu",
+                "propertyTypeFQN": "boolean@mozu",
+                "installationPackage": "core@mozu",
+                "version": "1.0",
+                "dataType": "boolean"
+            }
+        },
+        {
+            "name": "targetName",
+            "isRequired": true,
+            "isMultiValued": false,
+            "propertyType": {
+                "name": "string",
+                "namespace": "mozu",
+                "propertyTypeFQN": "string@mozu",
+                "installationPackage": "core@mozu",
+                "version": "1.0",
+                "dataType": "string"
+            }
+        },
+        {
+            "name": "htmlContent",
+            "isRequired": true,
+            "isMultiValued": false,
+            "propertyType": {
+                "name": "string",
+                "namespace": "mozu",
+                "propertyTypeFQN": "string@mozu",
+                "installationPackage": "core@mozu",
+                "version": "1.0",
+                "dataType": "string"
+            }
+        },
+        {
+            "name": "htmlContentAlternate",
+            "isRequired": false,
+            "isMultiValued": false,
+            "propertyType": {
+                "name": "string",
+                "namespace": "mozu",
+                "propertyTypeFQN": "string@mozu",
+                "installationPackage": "core@mozu",
+                "version": "1.0",
+                "dataType": "string"
+            }
+        },
+        {
+            "name": "notes",
+            "isRequired": false,
+            "isMultiValued": false,
+            "propertyType": {
+                "name": "string",
+                "namespace": "mozu",
+                "propertyTypeFQN": "string@mozu",
+                "installationPackage": "core@mozu",
+                "version": "1.0",
+                "dataType": "string"
+            }
+        }
+    ]
+}

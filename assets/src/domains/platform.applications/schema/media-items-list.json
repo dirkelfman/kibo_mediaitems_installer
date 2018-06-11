@@ -1,0 +1,118 @@
+{
+    "name": "media_items",
+    "namespace": "mozu",
+    "listFQN": "media_items@mozu",
+    "documentTypeFQNs":[
+        "media_item@mozu"
+    ],
+    "supportsPublishing": true,
+    "enablePublishing": true,
+    "supportsActiveDateRanges": true,
+    "enableActiveDateRanges": true,
+    "views": [{
+            "name": "default",
+            "usages": [
+                "sitebuilder",
+                "entityManager"
+            ],
+            "isVisibleInStorefront": true,
+            "filter": "properties.archived eq false",
+            "fields": [{
+                    "name": "name",
+                    "target": "name"
+                },
+                {
+                    "name": "targetName",
+                    "target": "properties.targetName"
+                },
+                {
+                    "name": "archived",
+                    "target": "properties.archived"
+                },
+                {
+                    "name": "htmlContent",
+                    "target": "properties.htmlContent"
+                },
+                {
+                    "name": "htmlContentAlternate",
+                    "target": "properties.htmlContentAlternate"
+                },
+                {
+                    "name": "notes",
+                    "target": "properties.notes"
+                }
+
+            ]
+        },
+        {
+            "name": "archiveView",
+            "usages": [
+                "sitebuilder",
+                "entityManager"
+            ],
+            "isVisibleInStorefront": true,
+            "filter": "properties.archived eq true",
+            "fields": [{
+                    "name": "name",
+                    "target": "name"
+                },
+                {
+                    "name": "targetName",
+                    "target": "properties.targetName"
+                },
+                {
+                    "name": "archived",
+                    "target": "properties.archived"
+                },
+                {
+                    "name": "htmlContent",
+                    "target": "properties.htmlContent"
+                },
+                {
+                    "name": "htmlContentAlternate",
+                    "target": "properties.htmlContentAlternate"
+                },
+                {
+                    "name": "notes",
+                    "target": "properties.notes"
+                }
+            ]
+        },
+        {
+            "name": "adminView",
+            "usages": [
+                "sitebuilder",
+                "entityManager"
+            ],
+            "isVisibleInStorefront": true,
+            "filter": "properties.archived eq false",
+            "fields": [{
+                    "name": "name",
+                    "target": "name"
+                },
+                {
+                    "name": "targetName",
+                    "target": "properties.targetName"
+                },
+                {
+                    "name": "archived",
+                    "target": "properties.archived"
+                },
+                {
+                    "name": "htmlContentAlternate",
+                    "target": "properties.htmlContentAlternate"
+                },
+                {
+                    "name": "notes",
+                    "target": "properties.notes"
+                }
+            ]
+        }
+    ],
+    "usages": [
+        "entityManager",
+        "siteBuilder"
+    ],
+
+    "scopeType": "Catalog"
+}

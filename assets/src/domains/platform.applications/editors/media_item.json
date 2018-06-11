@@ -1,0 +1,16 @@
+{
+    "name": "media_item@mozu",
+    "documentTypeFQN": "entityEditor@mozu",
+    "listFQN": "entityEditors@mozu",
+    "publishState": "none",
+    "properties": {
+        "documentTypes": [
+            "media_item@mozu"
+        ],
+        "documentLists": [
+            "media_items@mozu"
+        ],
+        "priority": 0,
+        "code": "Ext.widget({\r\n    xtype: 'mz-form-entity',\r\n    title: 'Media Item',\r\n    items: [\r\n\r\n        {\r\n            xtype: 'mz-input-date',\r\n            name: 'document.startDate',\r\n            fieldLabel: 'Start Date'\r\n        }, {\r\n            xtype: 'mz-input-date',\r\n            name: 'document.endDate',\r\n            fieldLabel: 'End Date'\r\n        },\r\n        {\r\n            fieldLabel: 'Target Name',\r\n            name: 'targetName',\r\n            xtype: 'mz-input-text',\r\n            allowBlank: false\r\n        }, {\r\n            fieldLabel: 'HTML Content',\r\n            name: 'htmlContent',\r\n            xtype: 'mz-input-richtext',\r\n     'height': 400,\r\n          allowBlank: false\r\n        }, {\r\n            fieldLabel: 'HTML Content (Alternate)',\r\n            name: 'htmlContentAlternate',\r\n            xtype: 'mz-input-code',\r\n            allowBlank: true\r\n        }, {\r\n            fieldLabel: 'Archived',\r\n            name: 'archived',\r\n            xtype: 'mz-input-checkbox',\r\n            allowBlank: true\r\n        }, {\r\n            fieldLabel: 'Notes',\r\n            name: 'notes',\r\n            xtype: 'mz-input-richtext',\r\n            allowBlank: true\r\n        },\r\n    ]\r\n});"
+    }
+}
